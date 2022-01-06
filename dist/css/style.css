@@ -1,0 +1,16 @@
+body {
+  font: normal 400 16px/1.5 Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+svg {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
