@@ -1,1 +1,6 @@
 *.config
+
+*.html
+fonts
+img
+font.css
