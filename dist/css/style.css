@@ -266,17 +266,26 @@ section,
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
 }
+.list-two-items.mx-w > li {
+  max-width: 50%;
+}
 
 .list-three-items > li {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 33%;
           flex: 1 1 33%;
 }
+.list-three-items.mx-w > li {
+  max-width: 33%;
+}
 
 .list-four-items > li {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 25%;
           flex: 1 1 25%;
+}
+.list-four-items.mx-w > li {
+  max-width: 25%;
 }
 
 button,
@@ -345,10 +354,10 @@ select {
   cursor: pointer;
 }
 
-.btn-arr span:not(.icon) {
+.btn-icon span:not(.icon) {
   margin-right: 0.9rem;
 }
-.btn-arr .icon {
+.btn-icon .icon {
   width: 10px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0px;

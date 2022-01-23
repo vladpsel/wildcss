@@ -25,6 +25,20 @@
     max-width: 50%;
   }
 }
+@media (max-width: 1024px) {
+  .one-of-three,
+.two-of-three,
+.one-of-four,
+.two-of-four,
+.one-of-five,
+.two-of-five,
+.three-of-five {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    width: 50%;
+  }
+}
 @media (max-width: 680px) {
   .one-of-three,
 .two-of-three,
@@ -62,8 +76,8 @@
     padding: 0;
     margin-bottom: 1.9rem;
   }
-  .list-three-items.mx > li,
-.list-four-items.mx > li {
+  .list-three-items.mx-w > li,
+.list-four-items.mx-w > li {
     max-width: none;
   }
 
